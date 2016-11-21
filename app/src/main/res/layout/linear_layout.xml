@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Parent linear layout whit vertical layout-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:padding="5dp"/>
+    
+<EditText
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp"/>
+    
+<Button
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="login"/>
+
+    <!--child linear layout whit horizontal orientation-->
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#2a2a2a"
+        android:layout_marginTop="25dp">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="home" android:padding="15dp"android:layout_weight="1"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="about" android:padding="15dp"android:layout_weight="1"
+            android:gravity="center"/>
+
+    </LinearLayout>
+</LinearLayout>
